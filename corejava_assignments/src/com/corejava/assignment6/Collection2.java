@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class Collection2 {
 	public static void main(String[] args){
 	
-	HashSet hs=new HashSet();
+	HashSet<String> hs=new HashSet<String>();
 	hs.add("oppo");
 	hs.add("redmi");
 	hs.add("apple");

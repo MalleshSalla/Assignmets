@@ -19,7 +19,5 @@ public class EmployeeManager {
 		for (Employee employee : hashset) {
 			System.out.println(employee.toString());
 		}
-		
-		
 	}
 }
