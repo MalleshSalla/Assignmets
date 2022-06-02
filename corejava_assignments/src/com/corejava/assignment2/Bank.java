@@ -16,5 +16,4 @@ public class Bank {
 		return this.totalAmount = cash;
 	}
 
-	
 }

@@ -13,17 +13,16 @@ public class MarksResults {
 		int sub_2Marks = sc.nextInt();
 		System.out.println("Enter the subject_3 marks");
 		int sub_3Marks = sc.nextInt();
-		
-		if((sub_1Marks>60)&&(sub_2Marks>60)&&(sub_3Marks>60)) {
+
+		if ((sub_1Marks > 60) && (sub_2Marks > 60) && (sub_3Marks > 60)) {
 			System.out.println("Student is passed");
-		}else if((sub_1Marks>60&&(sub_2Marks>60))||(sub_1Marks>60&&(sub_3Marks>60))||(sub_3Marks>60&&(sub_2Marks>60))) {
+		} else if ((sub_1Marks > 60 && (sub_2Marks > 60)) || (sub_1Marks > 60 && (sub_3Marks > 60))
+				|| (sub_3Marks > 60 && (sub_2Marks > 60))) {
 			System.out.println("Student is promoted ");
-		}else {
+		} else {
 			System.out.println("Student is Failed");
 		}
-		
-		
-		
+
 		sc.close();
 	}
 

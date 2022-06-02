@@ -28,52 +28,22 @@ public class Collection3 {
 		treeSet.add(emp8);
 		treeSet.add(emp9);
 		treeSet.add(emp10);
-		
+
 		Iterator<Employee> itr = treeSet.iterator();
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
 		System.out.println();
-		
-		TreeSet<Employee> treeSet1 = new TreeSet<Employee>(new MyIdComp());
-		treeSet1.add(emp1);
-		treeSet1.add(emp2);
-		treeSet1.add(emp3);
-		treeSet1.add(emp4);
-		treeSet1.add(emp5);
-		treeSet1.add(emp6);
-		treeSet1.add(emp7);
-		treeSet1.add(emp8);
-		treeSet1.add(emp9);
-		treeSet1.add(emp10);
-		Iterator<Employee> itr1 = treeSet1.iterator();
-		while (itr1.hasNext()) {
-			System.out.println(itr1.next());
-		}
 
 	}
 }
 
-
- class MyNameComp implements Comparator<Employee> {
+class MyNameComp implements Comparator<Employee> {
 
 	@Override
 	public int compare(Employee e1, Employee e2) {
-		
+
 		return e1.getName().compareTo(e2.getName());
 	}
-	
-}
 
-class MyIdComp implements Comparator<Employee>{
-
-	@Override
-	public int compare(Employee e1, Employee e2) {
-		if (e2.getSalary() > e1.getSalary()) {
-			return 1;
-		} else {
-			return -1;
-		}
-	}
-	
 }

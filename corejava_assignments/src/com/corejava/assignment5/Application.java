@@ -11,8 +11,8 @@ public class Application {
 
 	public static void main(String[] args) {
 
-		HashMap<Integer,Double> h = new HashMap<>();
-		
+		HashMap<Integer, Double> h = new HashMap<>();
+
 		// put() is used to add key and value inside Map
 		h.put(10, 22.43);
 		h.put(20, 20.55);
@@ -23,9 +23,7 @@ public class Application {
 		h.put(70, 28.88);
 		h.put(80, 29.95);
 		h.put(90, 29.75);
-		h.put(100,30.22);
+		h.put(100, 30.22);
 		System.out.println(h);
+	}
 }
-}
-
-

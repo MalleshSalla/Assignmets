@@ -6,7 +6,7 @@ public class StringJoin {
 		// TODO Auto-generated method stub
 		String part1 = "Hello";
 		String part2 = "How are you";
-		System.out.print(part1.concat(" "+part2));
+		System.out.print(part1.concat(" " + part2));
 	}
 
 }

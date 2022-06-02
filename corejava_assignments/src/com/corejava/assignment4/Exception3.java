@@ -34,7 +34,7 @@ public class Exception3 {
 			}
 		} catch (MinimumAccountBalance mab) {
 			mab.printStackTrace();
-		}finally{
+		} finally {
 			sc.close();
 		}
 

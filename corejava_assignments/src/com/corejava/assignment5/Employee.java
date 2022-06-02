@@ -6,8 +6,6 @@ public class Employee {
 	String name;
 	double salary;
 	String department;
-	
-	
 
 	public Employee(int id, String name, double salary, String department) {
 		super();
@@ -18,15 +16,15 @@ public class Employee {
 	}
 
 	public void displayDetails() {
-		System.out.println("Employee id is : "+ id);
-		System.out.println("Employee name is :"+ name);
-		System.out.println("Employee salary :"+ salary);
-		System.out.println("Employee department is :"+ department);
+		System.out.println("Employee id is : " + id);
+		System.out.println("Employee name is :" + name);
+		System.out.println("Employee salary :" + salary);
+		System.out.println("Employee department is :" + department);
 	}
 
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", department=" + department + "]";
 	}
-	
+
 }

@@ -3,27 +3,21 @@ package com.corejava.assignment2;
 public class SingletonClass {
 	private static SingletonClass a = null;
 
-	private SingletonClass() 
-	{
+	private SingletonClass() {
 		System.out.println("Object Created");
 	}
 
-	public static void createObject()
-	{
-		if(a==null)
-		{
+	public static void createObject() {
+		if (a == null) {
 			a = new SingletonClass();
-		}
-		else
-		{
+		} else {
 			System.out.println("Cannot Create");
 		}
 	}
-	
-	public static void main(String[] args) 
-	{
+
+	public static void main(String[] args) {
 		SingletonClass.createObject();
 		SingletonClass.createObject();
-		SingletonClass.createObject();	
+		SingletonClass.createObject();
 	}
 }

@@ -25,9 +25,9 @@ public class BubbleSort {
 		}
 		System.out.println();
 		System.out.println("Array After swapping :");
-		
+
 		for (int i : numArray) {
-			System.out.print(i+",");
+			System.out.print(i + ",");
 		}
 	}
 

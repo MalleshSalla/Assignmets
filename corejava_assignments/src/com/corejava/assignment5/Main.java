@@ -15,7 +15,7 @@ public class Main {
 	public static final <T> void swap(List<T> l, int i, int j) {
 		Collections.<T>swap(l, i, j);
 	}
- 
+
 	private static void test() {
 		String[] a = { "Hello", "Goodbye" };
 		swap(a, 0, 1);
